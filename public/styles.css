@@ -2,12 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   height: 605px;
   background-color: #2f3030;
   color: white; }
   .banner .banner-text {
-    text-align: center; }
+    text-align: center;
+    margin-top: 140px; }
     .banner .banner-text > p {
       margin: 17px 0;
       font-size: 16px; }
@@ -19,17 +19,18 @@
       .banner .banner-text .banner-text-dots:after, .banner .banner-text .banner-text-dots:before {
         content: '\2022';
         font-size: 18px;
-        margin: 0 10px;
+        margin: 0 12px;
         color: #979898; }
   .banner .banner-text-lines {
+    font-weight: 200;
     vertical-align: middle; }
   .banner .svg-lines {
     width: 100px;
-    margin: 0 10px;
+    margin: 0 20px;
     padding: 4px 0;
     height: 4px; }
   .banner .banner-href-wrapper {
-    margin-top: 78px; }
+    margin: 60px 0 180px; }
     .banner .banner-href-wrapper .btn-checkout-work {
       height: 50px;
       width: 240px;

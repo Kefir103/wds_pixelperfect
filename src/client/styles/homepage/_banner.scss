@@ -24,9 +24,8 @@
             font-weight: 200;
             &:after,
             &:before {
-                vertical-align: middle;
                 content: '\2022';
-                font-size: 30px;
+                font-size: 18px;
                 margin: 0 10px;
                 color: #979898;
             }

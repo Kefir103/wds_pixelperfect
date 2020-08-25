@@ -17,9 +17,8 @@
     .banner .banner-text .banner-text-dots {
       font-weight: 200; }
       .banner .banner-text .banner-text-dots:after, .banner .banner-text .banner-text-dots:before {
-        vertical-align: middle;
         content: '\2022';
-        font-size: 30px;
+        font-size: 18px;
         margin: 0 10px;
         color: #979898; }
   .banner .banner-text-lines {

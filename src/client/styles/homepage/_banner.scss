@@ -1,0 +1,69 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 605px;
+    background-color: #2f3030;
+    color: white;
+
+    .banner-text {
+        text-align: center;
+
+        & > p {
+            margin: 17px 0;
+            font-size: 16px;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin: 15px 0;
+        }
+
+        .banner-text-dots {
+            font-weight: 200;
+            &:after,
+            &:before {
+                vertical-align: middle;
+                content: '\2022';
+                font-size: 30px;
+                margin: 0 10px;
+                color: #979898;
+            }
+        }
+    }
+
+    .banner-text-lines {
+        vertical-align: middle;
+    }
+
+    .svg-lines {
+        width: 100px;
+        margin: 0 10px;
+        padding: 4px 0;
+        height: 4px;
+    }
+
+    .banner-href-wrapper {
+        margin-top: 78px;
+        .btn-checkout-work {
+            height: 50px;
+            width: 240px;
+            border: 1px solid #979898;
+            color: white;
+            background: transparent;
+            word-spacing: 1px;
+            font: 100 14px Lato;
+            font-stretch: expanded;
+            text-decoration: none;
+
+            &:hover,
+            &:active,
+            &:visited,
+            &:focus {
+                color: white;
+            }
+        }
+    }
+
+}

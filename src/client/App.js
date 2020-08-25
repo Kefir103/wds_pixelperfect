@@ -1,9 +1,12 @@
 import React from 'react';
+import { Route, Router } from 'react-router';
+import { HomePage } from './homepage/HomePage';
+import { BrowserRouter } from 'react-router-dom';
 
 export const App = () => {
     return (
-        <div>
-            <h1>Hello, World!</h1>
-        </div>
+        <BrowserRouter>
+            <Route exact path={'/'} component={HomePage} />
+        </BrowserRouter>
     );
 };

@@ -1,0 +1,56 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 605px;
+  background-color: #2f3030;
+  color: white; }
+  .banner .banner-text {
+    text-align: center; }
+    .banner .banner-text > p {
+      margin: 17px 0;
+      font-size: 16px; }
+    .banner .banner-text h1 {
+      font-size: 50px;
+      margin: 15px 0; }
+    .banner .banner-text .banner-text-dots {
+      font-weight: 200; }
+      .banner .banner-text .banner-text-dots:after, .banner .banner-text .banner-text-dots:before {
+        vertical-align: middle;
+        content: '\2022';
+        font-size: 30px;
+        margin: 0 10px;
+        color: #979898; }
+  .banner .banner-text-lines {
+    vertical-align: middle; }
+  .banner .svg-lines {
+    width: 100px;
+    margin: 0 10px;
+    padding: 4px 0;
+    height: 4px; }
+  .banner .banner-href-wrapper {
+    margin-top: 78px; }
+    .banner .banner-href-wrapper .btn-checkout-work {
+      height: 50px;
+      width: 240px;
+      border: 1px solid #979898;
+      color: white;
+      background: transparent;
+      word-spacing: 1px;
+      font: 100 14px Lato;
+      font-stretch: expanded;
+      text-decoration: none; }
+      .banner .banner-href-wrapper .btn-checkout-work:hover, .banner .banner-href-wrapper .btn-checkout-work:active, .banner .banner-href-wrapper .btn-checkout-work:visited, .banner .banner-href-wrapper .btn-checkout-work:focus {
+        color: white; }
+
+body {
+  width: 1260px;
+  margin: 0;
+  padding: 0; }
+
+#root {
+  width: 1260px;
+  margin: 0;
+  padding: 0;
+  font-family: Lato, 'Open Sans'; }

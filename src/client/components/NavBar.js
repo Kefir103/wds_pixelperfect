@@ -6,7 +6,7 @@ export const NavBar = (props) => {
         <nav className={`homepage-nav_${props.colorScheme}`}>
             <div className={'homepage-nav-wrapper'}>
                 <NavLink
-                    to={'/'}
+                    exact to={'/'}
                     className={'homepage-nav-href'}
                     activeStyle={{
                         color: '#2980b9',

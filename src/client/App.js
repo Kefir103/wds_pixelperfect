@@ -1,17 +1,29 @@
-import React from 'react';
-import { Route, Switch, useHistory } from 'react-router';
+import React, { useEffect, useState } from 'react';
+import { Route, Switch, useLocation } from 'react-router';
 import { HomePage } from './components/homepage/HomePage';
 import { Banner } from './components/Banner';
 import { NavBar } from './components/NavBar';
+import { ServicesPage } from './components/services/ServicesPage';
 
 export const App = () => {
-    const history = useHistory();
+    const [colorScheme, setColorScheme] = useState('');
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.pathname === '/') {
+            setColorScheme('light');
+        } else {
+            setColorScheme('dark');
+        }
+    }, [location.pathname]);
+
     return (
         <>
-            {history.location.pathname === '/' ? <Banner /> : ''}
-            <NavBar colorScheme={history.location.pathname === '/' ? 'light' : 'dark'} />
+            {colorScheme === 'light' ? <Banner /> : ''}
+            <NavBar colorScheme={colorScheme} />
             <Switch>
                 <Route exact path={'/'} component={HomePage} />
+                <Route exact path={'/services'} component={ServicesPage} />
             </Switch>
         </>
     );

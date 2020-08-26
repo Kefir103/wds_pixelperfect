@@ -1,9 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-export const NavBar = () => {
+export const NavBar = (props) => {
     return (
-        <nav className={'homepage-nav'}>
+        <nav className={`homepage-nav_${props.colorScheme}`}>
             <div className={'homepage-nav-wrapper'}>
                 <NavLink
                     to={'/'}
@@ -30,7 +30,7 @@ export const NavBar = () => {
                     PORTFOLIO
                 </NavLink>
             </div>
-            <b className={'wds-logo'}>WDS</b>
+            <b className={`wds-logo_${props.colorScheme}-scheme`}>WDS</b>
             <div className={'homepage-nav-wrapper'}>
                 <NavLink
                     to={'/team'}

@@ -1,9 +1,9 @@
 import React from 'react';
-import LogoBeautifulSpiral from '../../../public/images/logos/Logo_BeautifulSpiral.png';
-import LogoBowTie from '../../../public/images/logos/Logo_BowTie.png';
-import LogoCircleMe from '../../../public/images/logos/Logo_CircleMe.png';
-import LogoCrossingLines from '../../../public/images/logos/Logo_CrossingLines.png';
-import LogoMountainsSolution from '../../../public/images/logos/Logo_MountainsSolution.png';
+import LogoBeautifulSpiral from '../../../../public/images/logos/Logo_BeautifulSpiral.png';
+import LogoBowTie from '../../../../public/images/logos/Logo_BowTie.png';
+import LogoCircleMe from '../../../../public/images/logos/Logo_CircleMe.png';
+import LogoCrossingLines from '../../../../public/images/logos/Logo_CrossingLines.png';
+import LogoMountainsSolution from '../../../../public/images/logos/Logo_MountainsSolution.png';
 
 export const Content_Clients = () => {
     return (

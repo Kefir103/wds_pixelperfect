@@ -1,18 +1,18 @@
 import React from 'react';
-import { Banner } from './Banner';
-import { NavBar } from './NavBar';
+import { Banner } from '../Banner';
+import { NavBar } from '../NavBar';
 import { Content_InfoBox } from './Content_InfoBox';
-import {Content_Clients} from "./Content_Clients";
-import {Footer} from "./Footer";
+import { Content_Clients } from './Content_Clients';
+import { Footer } from '../Footer';
 
 export const HomePage = () => {
     return (
         <div className={'homepage'}>
             <Banner />
-            <NavBar />
+            <NavBar colorScheme={'light'} />
             <Content_InfoBox />
             <Content_Clients />
-            <Footer/>
+            <Footer />
         </div>
     );
 };

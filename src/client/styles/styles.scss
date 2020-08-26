@@ -1,8 +1,8 @@
-@import './homepage/banner';
-@import './homepage/navbar';
-@import './homepage/contentInfoBox';
-@import './homepage/contentClients';
-@import './homepage/footer';
+@import 'components/banner';
+@import 'components/navbar';
+@import 'components/homepage/contentInfoBox';
+@import 'components/homepage/contentClients';
+@import 'components/footer';
 
 body {
     margin: 0;

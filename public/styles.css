@@ -67,6 +67,82 @@
     text-decoration: none;
     color: #7f8c8d; }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+hr {
+  width: 150px;
+  height: 1px;
+  color: #a5a8a9; }
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 435px;
+  background-image: url("./images/background/HomePage_Content_Background.png"); }
+
+.info-box__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 775px;
+  height: 165px;
+  margin-top: 50px; }
+
+.content-info__text-heading {
+  font-family: Lato;
+  font-size: 44px;
+  font-weight: 300;
+  margin: 0; }
+
+.content-info__text-desc {
+  color: #606060;
+  text-align: center;
+  line-height: 1.5em;
+  margin: 0; }
+
+.info-box__icons-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin: 95px 0 65px; }
+
+.info-box__icon-href {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: black;
+  fill: black;
+  fill-rule: evenodd;
+  text-decoration: none;
+  transition: all 0.2s linear;
+  margin: 0 30px; }
+  .info-box__icon-href svg {
+    margin-bottom: 30px; }
+  .info-box__icon-href:hover, .info-box__icon-href:active, .info-box__icon-href:focus {
+    transform: scale(1.2);
+    color: #2980b9;
+    fill: #2980b9;
+    outline: none; }
+
+.info-box__icon-href_active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #2980b9;
+  fill: #2980b9;
+  fill-rule: evenodd;
+  text-decoration: none;
+  transform: scale(1.2); }
+
 body {
   width: 1260px;
   margin: 0;

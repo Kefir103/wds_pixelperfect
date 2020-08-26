@@ -18,7 +18,14 @@ module.exports = {
             },
             {
                 test: /\.(css|scss)$/,
-                loader: ['style-loader', 'css-loader', 'sass-loader'],
+                loader: ['css-loader', 'sass-loader'],
+            },
+            {
+                test: /\.(png|jp(e)?g|svg)$/,
+                loader: 'file-loader',
+                options: {
+                    name: '[path][name].[ext]',
+                },
             },
         ],
     },
@@ -26,7 +33,7 @@ module.exports = {
         port: 3010,
         hot: true,
         open: true,
-        contentBase: path.join(__dirname, 'build'),
+        contentBase: path.join(__dirname, 'public'),
         compress: false,
         historyApiFallback: true,
     },

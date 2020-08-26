@@ -2,8 +2,8 @@ import React from 'react';
 
 export const Content_InfoBox = () => {
     return (
-        <div className={'content info-box'}>
-            <div className={'content__text-wrapper'}>
+        <div className={'content__info-box'}>
+            <div className={'content__text-wrapper_marginTop50'}>
                 <p className={'content__text-heading'}>Phasellus sit amet justo egestas</p>
                 <hr/>
                 <p className={'content__text-desc'}>

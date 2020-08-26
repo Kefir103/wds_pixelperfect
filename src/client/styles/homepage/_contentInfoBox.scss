@@ -1,18 +1,6 @@
 $Background: url('./images/background/HomePage_Content_Background.png');
 
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-hr {
-    width: 150px;
-    height: 1px;
-    color: #a5a8a9;
-}
-
-.info-box {
+.content__info-box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +8,7 @@ hr {
     background-image: $Background;
 }
 
-.content__text-wrapper {
+.content__text-wrapper_marginTop50 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,6 +16,12 @@ hr {
     width: 775px;
     height: 165px;
     margin-top: 50px;
+
+    hr {
+        width: 150px;
+        height: 1px;
+        color: #a5a8a9;
+    }
 }
 
 .content__text-heading {

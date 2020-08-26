@@ -2,6 +2,7 @@ import React from 'react';
 import { Banner } from './Banner';
 import { NavBar } from './NavBar';
 import { Content_InfoBox } from './Content_InfoBox';
+import {Content_Clients} from "./Content_Clients";
 
 export const HomePage = () => {
     return (
@@ -9,6 +10,7 @@ export const HomePage = () => {
             <Banner />
             <NavBar />
             <Content_InfoBox />
+            <Content_Clients />
         </div>
     );
 };

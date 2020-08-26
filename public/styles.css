@@ -111,7 +111,8 @@
   margin-top: 50px; }
   .content__text-wrapper_marginTop50 hr {
     width: 150px;
-    height: 1px;
+    border: none;
+    border-top: 1px solid #a5a8a9;
     color: #a5a8a9; }
 
 .content__text-heading {
@@ -181,7 +182,8 @@
   margin-top: 70px; }
   .content__text-wrapper_marginTop70 hr {
     width: 150px;
-    height: 1px;
+    border: none;
+    border-top: 1px solid #a5a8a9;
     color: #a5a8a9; }
 
 .clients__logos-wrapper {
@@ -237,7 +239,8 @@
   height: 160px; }
   .services__info hr {
     width: 150px;
-    height: 1px;
+    border: none;
+    border-top: 1px solid #a5a8a9;
     color: #a5a8a9; }
 
 .services__grid {

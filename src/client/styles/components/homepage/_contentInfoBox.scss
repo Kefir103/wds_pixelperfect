@@ -21,7 +21,8 @@ $Background: url('./images/background/HomePage_Content_Background.png');
 
     hr {
         width: 150px;
-        height: 1px;
+        border: none;
+        border-top: 1px solid #a5a8a9;
         color: #a5a8a9;
     }
 }

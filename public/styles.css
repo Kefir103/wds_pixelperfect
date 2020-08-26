@@ -126,7 +126,7 @@ hr {
   transition: all 0.2s linear;
   margin: 0 30px; }
   .info-box__icon-href svg {
-    margin-bottom: 30px; }
+    margin-bottom: 25px; }
   .info-box__icon-href:hover, .info-box__icon-href:active, .info-box__icon-href:focus {
     transform: scale(1.2);
     color: #2980b9;

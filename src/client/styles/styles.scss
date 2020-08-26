@@ -5,13 +5,20 @@
 @import 'components/footer';
 @import 'components/services/servicesPage';
 
-body {
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
 }
 
 #root {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     font-family: Lato, 'Open Sans';
+}
+
+.wrapper {
+    flex: 1 0 auto;
 }

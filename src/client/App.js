@@ -20,12 +20,14 @@ export const App = () => {
 
     return (
         <>
-            {colorScheme === 'light' ? <Banner /> : ''}
-            <NavBar colorScheme={colorScheme} />
-            <Switch>
-                <Route exact path={'/'} component={HomePage} />
-                <Route exact path={'/services'} component={ServicesPage} />
-            </Switch>
+            <div className={'wrapper'}>
+                {colorScheme === 'light' ? <Banner /> : ''}
+                <NavBar colorScheme={colorScheme} />
+                <Switch>
+                    <Route exact path={'/'} component={HomePage} />
+                    <Route exact path={'/services'} component={ServicesPage} />
+                </Switch>
+            </div>
             <Footer />
         </>
     );

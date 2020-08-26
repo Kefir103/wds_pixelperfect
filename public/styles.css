@@ -213,7 +213,8 @@
   height: 60px;
   width: 100%;
   padding: 0 150px;
-  background-color: black; }
+  background-color: black;
+  flex-shrink: 0; }
 
 .footer__contacts a {
   margin-right: 20px; }
@@ -275,11 +276,17 @@
     text-decoration: underline;
     margin: 0 0 0 2px; }
 
-body {
+html, body {
+  height: 100%;
   margin: 0;
   padding: 0; }
 
 #root {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   font-family: Lato, 'Open Sans'; }
+
+.wrapper {
+  flex: 1 0 auto; }

@@ -4,13 +4,13 @@ export const Content_InfoBox = () => {
     return (
         <div className={'content__info-box'}>
             <div className={'content__text-wrapper_marginTop50'}>
-                <p className={'content__text-heading'}>Phasellus sit amet justo egestas</p>
+                <div className={'content__text-heading'}>Phasellus sit amet justo egestas</div>
                 <hr/>
-                <p className={'content__text-desc'}>
+                <div className={'content__text-desc'}>
                     Nunc ac lorem vel arcu ultricies volutpat at nec arcu. Ut tempus dignissim est,
                     at iaculis massa blandit commodo. In vitae nunc eget arcu aliquam hendrerit a
                     vel dui. Aliquam a sagittis neque, nec congue eros.
-                </p>
+                </div>
             </div>
             <div className={'info-box__icons-wrapper'}>
                 <a href={'#'} className={'info-box__icon-href'}>

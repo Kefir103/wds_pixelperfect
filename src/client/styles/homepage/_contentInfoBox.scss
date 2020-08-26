@@ -1,11 +1,13 @@
 $Background: url('./images/background/HomePage_Content_Background.png');
 
 .content__info-box {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 435px;
     background-image: $Background;
+    padding: 0 150px;
 }
 
 .content__text-wrapper_marginTop50 {
@@ -14,7 +16,7 @@ $Background: url('./images/background/HomePage_Content_Background.png');
     align-items: center;
     justify-content: space-between;
     width: 775px;
-    height: 165px;
+    height: 100%;
     margin-top: 50px;
 
     hr {
@@ -28,14 +30,12 @@ $Background: url('./images/background/HomePage_Content_Background.png');
     font-family: Lato;
     font-size: 44px;
     font-weight: 300;
-    margin: 0;
 }
 
 .content__text-desc {
     color: #606060;
     text-align: center;
     line-height: 1.5em;
-    margin: 0;
 }
 
 .info-box__icons-wrapper {
@@ -43,7 +43,7 @@ $Background: url('./images/background/HomePage_Content_Background.png');
     flex-direction: row;
     width: 100%;
     justify-content: center;
-    margin: 95px 0 65px;
+    margin: 85px 0 65px;
 }
 
 .info-box__icon-href {

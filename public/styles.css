@@ -1,10 +1,12 @@
 .banner {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 605px;
   background-color: #2f3030;
-  color: white; }
+  color: white;
+  padding: 0 150px; }
   .banner .banner-text {
     text-align: center;
     margin-top: 140px; }
@@ -45,13 +47,14 @@
         color: white; }
 
 .homepage-nav {
+  box-sizing: border-box;
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   height: 110px;
-  box-sizing: border-box; }
+  padding: 0 150px; }
   .homepage-nav .wds-logo {
     font-size: 40px;
     font-weight: 900;
@@ -62,17 +65,19 @@
     width: 365px;
     justify-content: space-between; }
   .homepage-nav .homepage-nav-href {
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     font-size: 14px;
     text-decoration: none;
     color: #7f8c8d; }
 
 .content__info-box {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 435px;
-  background-image: url("./images/background/HomePage_Content_Background.png"); }
+  background-image: url("./images/background/HomePage_Content_Background.png");
+  padding: 0 150px; }
 
 .content__text-wrapper_marginTop50 {
   display: flex;
@@ -80,7 +85,7 @@
   align-items: center;
   justify-content: space-between;
   width: 775px;
-  height: 165px;
+  height: 100%;
   margin-top: 50px; }
   .content__text-wrapper_marginTop50 hr {
     width: 150px;
@@ -90,21 +95,19 @@
 .content__text-heading {
   font-family: Lato;
   font-size: 44px;
-  font-weight: 300;
-  margin: 0; }
+  font-weight: 300; }
 
 .content__text-desc {
   color: #606060;
   text-align: center;
-  line-height: 1.5em;
-  margin: 0; }
+  line-height: 1.5em; }
 
 .info-box__icons-wrapper {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: center;
-  margin: 95px 0 65px; }
+  margin: 85px 0 65px; }
 
 .info-box__icon-href {
   display: flex;
@@ -138,6 +141,7 @@
   transform: scale(1.2); }
 
 .content__clients {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -151,7 +155,7 @@
   align-items: center;
   justify-content: space-between;
   width: 775px;
-  height: 165px;
+  height: 100%;
   margin-top: 70px; }
   .content__text-wrapper_marginTop70 hr {
     width: 150px;
@@ -164,7 +168,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin: 75px 0 95px; }
+  margin: 65px 0 95px; }
   .clients__logos-wrapper .clients__arrow {
     background: none;
     border: none;
@@ -197,12 +201,10 @@
   text-align: right; }
 
 body {
-  width: 1260px;
   margin: 0;
   padding: 0; }
 
 #root {
-  width: 1260px;
   margin: 0;
   padding: 0;
   font-family: Lato, 'Open Sans'; }

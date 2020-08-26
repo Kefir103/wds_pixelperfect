@@ -9,13 +9,13 @@ export const Content_Clients = () => {
     return (
         <div className={'content__clients'}>
             <div className={'content__text-wrapper_marginTop70'}>
-                <p className={'content__text-heading'}>Our clients love us</p>
+                <div className={'content__text-heading'}>Our clients love us</div>
                 <hr />
-                <p className={'content__text-desc'}>
+                <div className={'content__text-desc'}>
                     Duis posuere sollicitudin felis, sit amet tempus orci laculis eu. Donec quis
                     laoreet dolor. Nam sed mi nisl. Duis ultricles lacus nec auctor rhoncus.
                     Praesent quis tincidunt orci.
-                </p>
+                </div>
             </div>
             <div className={'clients__logos-wrapper'}>
                 <button className={'clients__arrow'}>

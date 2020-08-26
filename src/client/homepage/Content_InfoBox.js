@@ -3,10 +3,10 @@ import React from 'react';
 export const Content_InfoBox = () => {
     return (
         <div className={'content info-box'}>
-            <div className={'info-box__text-wrapper'}>
-                <p className={'content-info__text-heading'}>Phasellus sit amet justo egestas</p>
+            <div className={'content__text-wrapper'}>
+                <p className={'content__text-heading'}>Phasellus sit amet justo egestas</p>
                 <hr/>
-                <p className={'content-info__text-desc'}>
+                <p className={'content__text-desc'}>
                     Nunc ac lorem vel arcu ultricies volutpat at nec arcu. Ut tempus dignissim est,
                     at iaculis massa blandit commodo. In vitae nunc eget arcu aliquam hendrerit a
                     vel dui. Aliquam a sagittis neque, nec congue eros.

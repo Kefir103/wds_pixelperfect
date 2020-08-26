@@ -84,7 +84,7 @@ hr {
   height: 435px;
   background-image: url("./images/background/HomePage_Content_Background.png"); }
 
-.info-box__text-wrapper {
+.content__text-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,13 +93,13 @@ hr {
   height: 165px;
   margin-top: 50px; }
 
-.content-info__text-heading {
+.content__text-heading {
   font-family: Lato;
   font-size: 44px;
   font-weight: 300;
   margin: 0; }
 
-.content-info__text-desc {
+.content__text-desc {
   color: #606060;
   text-align: center;
   line-height: 1.5em;

@@ -6,12 +6,12 @@ export const PortfolioPage = () => {
         <div className={'portfolio'}>
             <div className={'portfolio__container'}>
                 <div className={'portfolio__info'}>
-                    <div className={'content__text-heading'}>Our portfolio</div>
+                    <div className={'portfolio__text-heading'}>Our portfolio</div>
                     <hr />
-                    <div className={'content__text-desc'}>
-                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-                        ac turpis egestas. Maecenas euismod tellus nec tellus dictum malesuada. Cras
-                        vel condirnenum justo. Nulla ullamcorper velit et ornare vehicula.
+                    <div className={'portfolio__text-desc'}>
+                        Nunc ac lorem vel arcu ultricies volutpat at nec arcu. Ut tempus dignissim
+                        est, at iaculis massa blandit commodo. In vitae nunc eget arcu aliquam
+                        hendrerit a vel dui. Aliquam a sagittis neque, nec congue eros.
                     </div>
                 </div>
                 <div className={'portfolio__grid'}>

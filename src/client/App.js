@@ -8,6 +8,7 @@ import { Footer } from './components/Footer';
 import { PortfolioPage } from './components/portfolio/PortfolioPage';
 import { OurTeamPage } from './components/our_team/OurTeamPage';
 import { OurBlogPage } from './components/blog/OurBlogPage';
+import { BlogPost } from './components/blog/BlogPost';
 
 export const App = () => {
     const [colorScheme, setColorScheme] = useState('');
@@ -32,6 +33,7 @@ export const App = () => {
                     <Route exact path={'/portfolio'} component={PortfolioPage} />
                     <Route exact path={'/team'} component={OurTeamPage} />
                     <Route exact path={'/blog'} component={OurBlogPage} />
+                    <Route path={'/blog/post'} component={BlogPost} />
                 </Switch>
             </div>
             <Footer />

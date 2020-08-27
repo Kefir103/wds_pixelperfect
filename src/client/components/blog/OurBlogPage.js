@@ -1,6 +1,7 @@
 import React from 'react';
 
 import BlankImage from '../../../../public/images/blog/Blog_Image_Holder.png';
+import { NavLink } from 'react-router-dom';
 
 export const OurBlogPage = () => {
     return (
@@ -26,9 +27,9 @@ export const OurBlogPage = () => {
                             mi sit amet gravida bibendum. Aliquam erat volutpat. Aliquam arcu est,
                             malesuada a nisi in.
                         </div>
-                        <a href={'/blog/post'} className={'our-blog__blog-href'}>
+                        <NavLink to={'/blog/post'} className={'our-blog__blog-href'}>
                             Read more
-                        </a>
+                        </NavLink>
                     </div>
                     <div className={'our-blog__element'}>
                         <div className={'our-blog__image'}>
@@ -42,9 +43,9 @@ export const OurBlogPage = () => {
                             mauris condimentum mattis. Suspendisse in augue ut lorem viverra
                             dignissim. Fusce ultrices, mauris vitae fringilla.
                         </div>
-                        <a href={'/blog/post'} className={'our-blog__blog-href'}>
+                        <NavLink to={'/blog/post'} className={'our-blog__blog-href'}>
                             Read more
-                        </a>
+                        </NavLink>
                     </div>
                     <div className={'our-blog__element'}>
                         <div className={'our-blog__image'}>
@@ -56,9 +57,9 @@ export const OurBlogPage = () => {
                             erat volutpat. Class aptent taciti sociosqu ad litora torquent per
                             conubia nostra, per inceptos himenaeos.
                         </div>
-                        <a href={'/blog/post'} className={'our-blog__blog-href'}>
+                        <NavLink to={'/blog/post'} className={'our-blog__blog-href'}>
                             Read more
-                        </a>
+                        </NavLink>
                     </div>
                     <div className={'our-blog__element'}>
                         <div className={'our-blog__image'}>
@@ -71,9 +72,9 @@ export const OurBlogPage = () => {
                             Pellentesque aliquam eros non augue cursus, ut porta leo ornare.
                             Suspendisse odio lectus, commodo ac mauris in, bibendum pretium nisi.
                         </div>
-                        <a href={'/blog/post'} className={'our-blog__blog-href'}>
+                        <NavLink to={'/blog/post'} className={'our-blog__blog-href'}>
                             Read more
-                        </a>
+                        </NavLink>
                     </div>
                     <div className={'our-blog__element'}>
                         <div className={'our-blog__image'}>
@@ -87,9 +88,9 @@ export const OurBlogPage = () => {
                             ornare id eros vel imperdiet. Sed venenatis dapibus consequat. Curabitur
                             viverra erat id vehicula consectetur.
                         </div>
-                        <a href={'/blog/post'} className={'our-blog__blog-href'}>
+                        <NavLink to={'/blog/post'} className={'our-blog__blog-href'}>
                             Read more
-                        </a>
+                        </NavLink>
                     </div>
                     <div className={'our-blog__element'}>
                         <div className={'our-blog__image'}>
@@ -103,9 +104,9 @@ export const OurBlogPage = () => {
                             tempus sed ultricies vel, laoreet ut magna. In a condimentum nulla.
                             Maecenas sem tellus, blandit a felis at, luctus lobortis erat.
                         </div>
-                        <a href={'/blog/post'} className={'our-blog__blog-href'}>
+                        <NavLink to={'/blog/post'} className={'our-blog__blog-href'}>
                             Read more
-                        </a>
+                        </NavLink>
                     </div>
                 </div>
             </div>

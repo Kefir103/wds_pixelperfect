@@ -34,7 +34,7 @@ module.exports = {
         hot: true,
         open: true,
         contentBase: path.join(__dirname, 'public'),
-        compress: false,
+        compress: true,
         historyApiFallback: true,
     },
     plugins: [

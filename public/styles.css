@@ -448,7 +448,8 @@
   font-size: 12px;
   text-align: center;
   margin-bottom: 25px;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+  color: #606060; }
 
 .our-team__member-contacts {
   display: flex;
@@ -527,7 +528,6 @@
 
 html,
 body {
-  width: 1260px;
   height: 100%;
   margin: 0;
   padding: 0; }

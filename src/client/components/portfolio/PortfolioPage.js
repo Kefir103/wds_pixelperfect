@@ -1,5 +1,5 @@
 import React from 'react';
-import BlankImage from '../../../../public/images/Image_Holder.png';
+import BlankImage from '../../../../public/images/portfolio_images/Image_Holder.png';
 
 export const PortfolioPage = () => {
     return (
@@ -17,13 +17,13 @@ export const PortfolioPage = () => {
                 <div className={'portfolio__grid'}>
                     <div className={'portfolio__element'}>
                         <div className={'portfolio__element-image'}>
-                            <img src={BlankImage} alt={'Service Icon'} />
+                            <img src={BlankImage} alt={'Portfolio Image'} />
                         </div>
                         <div className={'portfolio__element-info'}>Lorem ipsum dolor sit amet</div>
                     </div>
                     <div className={'portfolio__element'}>
                         <div className={'portfolio__element-image'}>
-                            <img src={BlankImage} alt={'Service Icon'} />
+                            <img src={BlankImage} alt={'Portfolio Image'} />
                         </div>
                         <div className={'portfolio__element-info'}>
                             Pellentesque felis nibh lacinia
@@ -31,13 +31,13 @@ export const PortfolioPage = () => {
                     </div>
                     <div className={'portfolio__element'}>
                         <div className={'portfolio__element-image'}>
-                            <img src={BlankImage} alt={'Service Icon'} />
+                            <img src={BlankImage} alt={'Portfolio Image'} />
                         </div>
                         <div className={'portfolio__element-info'}>Feugiat vestibulum metus</div>
                     </div>
                     <div className={'portfolio__element'}>
                         <div className={'portfolio__element-image'}>
-                            <img src={BlankImage} alt={'Service Icon'} />
+                            <img src={BlankImage} alt={'Portfolio Image'} />
                         </div>
                         <div className={'portfolio__element-info'}>
                             Vivamus placerat volutpat magna ut ornare
@@ -45,25 +45,25 @@ export const PortfolioPage = () => {
                     </div>
                     <div className={'portfolio__element'}>
                         <div className={'portfolio__element-image'}>
-                            <img src={BlankImage} alt={'Service Icon'} />
+                            <img src={BlankImage} alt={'Portfolio Image'} />
                         </div>
                         <div className={'portfolio__element-info'}>Phasellus sit amet</div>
                     </div>
                     <div className={'portfolio__element'}>
                         <div className={'portfolio__element-image'}>
-                            <img src={BlankImage} alt={'Service Icon'} />
+                            <img src={BlankImage} alt={'Portfolio Image'} />
                         </div>
                         <div className={'portfolio__element-info'}>Donec laoreet mi sit</div>
                     </div>
                     <div className={'portfolio__element'}>
                         <div className={'portfolio__element-image'}>
-                            <img src={BlankImage} alt={'Service Icon'} />
+                            <img src={BlankImage} alt={'Portfolio Image'} />
                         </div>
                         <div className={'portfolio__element-info'}>Phasellus suscipit</div>
                     </div>
                     <div className={'portfolio__element'}>
                         <div className={'portfolio__element-image'}>
-                            <img src={BlankImage} alt={'Service Icon'} />
+                            <img src={BlankImage} alt={'Portfolio Image'} />
                         </div>
                         <div className={'portfolio__element-info'}>Nullam tristique</div>
                     </div>

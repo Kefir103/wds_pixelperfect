@@ -6,6 +6,7 @@ import { NavBar } from './components/NavBar';
 import { ServicesPage } from './components/services/ServicesPage';
 import { Footer } from './components/Footer';
 import { PortfolioPage } from './components/portfolio/PortfolioPage';
+import { OurTeamPage } from './components/our_team/OurTeamPage';
 
 export const App = () => {
     const [colorScheme, setColorScheme] = useState('');
@@ -28,6 +29,7 @@ export const App = () => {
                     <Route exact path={'/'} component={HomePage} />
                     <Route exact path={'/services'} component={ServicesPage} />
                     <Route exact path={'/portfolio'} component={PortfolioPage} />
+                    <Route exact path={'/team'} component={OurTeamPage} />
                 </Switch>
             </div>
             <Footer />

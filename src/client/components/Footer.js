@@ -1,10 +1,10 @@
 import React from 'react';
 
-import FacebookLogo from '../../../public/images/contacts_logos/Facebook.png';
-import GooglePlusLogo from '../../../public/images/contacts_logos/Google+.png';
-import PinterestLogo from '../../../public/images/contacts_logos/Pinterest.png';
-import RSSLogo from '../../../public/images/contacts_logos/RSS.png';
-import TwitterLogo from '../../../public/images/contacts_logos/Twitter.png';
+import FacebookLogo from '../../../public/images/contacts_logos/Facebook_Gray.png';
+import GooglePlusLogo from '../../../public/images/contacts_logos/Google+_Gray.png';
+import PinterestLogo from '../../../public/images/contacts_logos/Pinterest_Gray.png';
+import RSSLogo from '../../../public/images/contacts_logos/RSS_Gray.png';
+import TwitterLogo from '../../../public/images/contacts_logos/Twitter_Gray.png';
 
 export const Footer = () => {
     return (

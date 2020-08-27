@@ -1,22 +1,24 @@
 $Background: url('./images/background/HomePage_Content_Background.png');
 
-.content__info-box {
+.info-box {
+    height: 435px;
+    background-image: $Background;
+}
+
+.info-box__container {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 435px;
-    background-image: $Background;
-    padding: 0 150px;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
-.content__text-wrapper_marginTop50 {
+.info-box__text-wrapper_marginTop50 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 775px;
-    height: 100%;
     margin-top: 50px;
 
     hr {
@@ -27,16 +29,21 @@ $Background: url('./images/background/HomePage_Content_Background.png');
     }
 }
 
-.content__text-heading {
+.info-box__text-heading {
     font-family: Lato;
     font-size: 44px;
     font-weight: 300;
+    margin-bottom: 20px;
 }
 
-.content__text-desc {
+.info-box__text-desc {
+    font-family: "Open Sans";
+    font-size: 14px;
     color: #606060;
     text-align: center;
-    line-height: 1.5em;
+    line-height: 1.6em;
+    padding: 0 90px;
+    margin-top: 25px;
 }
 
 .info-box__icons-wrapper {
@@ -44,7 +51,7 @@ $Background: url('./images/background/HomePage_Content_Background.png');
     flex-direction: row;
     width: 100%;
     justify-content: center;
-    margin: 85px 0 65px;
+    margin: 90px 0 60px;
 }
 
 .info-box__icon-href {

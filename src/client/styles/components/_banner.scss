@@ -1,14 +1,18 @@
 .banner {
+    height: 605px;
+    background-color: #2f3030;
+}
+
+.banner__container {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 605px;
-    background-color: #2f3030;
+    max-width: 960px;
+    margin: 0 auto;
     color: white;
-    padding: 0 150px;
 
-    .banner-text {
+    .banner__container-text {
         text-align: center;
         margin-top: 140px;
 
@@ -22,7 +26,7 @@
             margin: 15px 0;
         }
 
-        .banner-text-dots {
+        .banner__container-text-dots {
             font-weight: 200;
             &:after,
             &:before {
@@ -34,7 +38,7 @@
         }
     }
 
-    .banner-text-lines {
+    .banner__container-text-lines {
         font-weight: 200;
         vertical-align: middle;
     }
@@ -46,25 +50,25 @@
         height: 4px;
     }
 
-    .banner-href-wrapper {
+    .banner__href {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin: 60px 0 180px;
-        .btn-checkout-work {
-            height: 50px;
-            width: 240px;
-            border: 1px solid #979898;
-            color: white;
-            background: transparent;
-            word-spacing: 1px;
-            font: 100 14px Lato;
-            font-stretch: expanded;
-            text-decoration: none;
+        height: 50px;
+        width: 240px;
+        border: 1px solid #979898;
+        color: white;
+        background: transparent;
+        word-spacing: 1px;
+        font: 100 14px Lato;
+        text-decoration: none;
 
-            &:hover,
-            &:active,
-            &:visited,
-            &:focus {
-                color: white;
-            }
+        &:hover,
+        &:active,
+        &:visited,
+        &:focus {
+            color: white;
         }
     }
 }

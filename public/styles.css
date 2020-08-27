@@ -1,136 +1,143 @@
 .banner {
+  height: 605px;
+  background-color: #2f3030; }
+
+.banner__container {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 605px;
-  background-color: #2f3030;
-  color: white;
-  padding: 0 150px; }
-  .banner .banner-text {
+  max-width: 960px;
+  margin: 0 auto;
+  color: white; }
+  .banner__container .banner__container-text {
     text-align: center;
     margin-top: 140px; }
-    .banner .banner-text > p {
+    .banner__container .banner__container-text > p {
       margin: 17px 0;
       font-size: 16px; }
-    .banner .banner-text h1 {
+    .banner__container .banner__container-text h1 {
       font-size: 50px;
       margin: 15px 0; }
-    .banner .banner-text .banner-text-dots {
+    .banner__container .banner__container-text .banner__container-text-dots {
       font-weight: 200; }
-      .banner .banner-text .banner-text-dots:after, .banner .banner-text .banner-text-dots:before {
+      .banner__container .banner__container-text .banner__container-text-dots:after, .banner__container .banner__container-text .banner__container-text-dots:before {
         content: '\2022';
         font-size: 18px;
         margin: 0 12px;
         color: #979898; }
-  .banner .banner-text-lines {
+  .banner__container .banner__container-text-lines {
     font-weight: 200;
     vertical-align: middle; }
-  .banner .svg-lines {
+  .banner__container .svg-lines {
     width: 100px;
     margin: 0 20px;
     padding: 4px 0;
     height: 4px; }
-  .banner .banner-href-wrapper {
-    margin: 60px 0 180px; }
-    .banner .banner-href-wrapper .btn-checkout-work {
-      height: 50px;
-      width: 240px;
-      border: 1px solid #979898;
-      color: white;
-      background: transparent;
-      word-spacing: 1px;
-      font: 100 14px Lato;
-      font-stretch: expanded;
-      text-decoration: none; }
-      .banner .banner-href-wrapper .btn-checkout-work:hover, .banner .banner-href-wrapper .btn-checkout-work:active, .banner .banner-href-wrapper .btn-checkout-work:visited, .banner .banner-href-wrapper .btn-checkout-work:focus {
-        color: white; }
+  .banner__container .banner__href {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0 180px;
+    height: 50px;
+    width: 240px;
+    border: 1px solid #979898;
+    color: white;
+    background: transparent;
+    word-spacing: 1px;
+    font: 100 14px Lato;
+    text-decoration: none; }
+    .banner__container .banner__href:hover, .banner__container .banner__href:active, .banner__container .banner__href:visited, .banner__container .banner__href:focus {
+      color: white; }
 
 .homepage-nav_light {
-  box-sizing: border-box;
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   height: 110px;
-  padding: 0 150px;
-  background: white; }
+  background-color: white; }
 
 .homepage-nav_dark {
-  box-sizing: border-box;
   width: 100%;
+  background-color: black; }
+
+.homepage-nav__container {
+  box-sizing: border-box;
+  max-width: 960px;
+  height: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 80px;
-  padding: 0 150px;
-  background: black; }
+  margin: 0 auto; }
 
-.wds-logo_light-scheme {
+.homepage-nav__wds-logo_lightScheme {
   font-size: 40px;
   font-weight: 900;
   margin: 0 70px;
   color: black; }
 
-.wds-logo_dark-scheme {
+.homepage-nav__wds-logo_darkScheme {
   font-size: 40px;
   font-weight: 900;
   margin: 0 70px;
   color: white; }
 
-.homepage-nav-wrapper {
+.homepage-nav__links {
   display: flex;
   flex-direction: row;
   width: 365px;
   justify-content: space-between; }
 
-.homepage-nav-href {
+.homepage-nav__href {
   font-family: 'Open Sans';
   font-size: 14px;
   text-decoration: none;
   color: #7f8c8d; }
 
-.content__info-box {
+.info-box {
+  height: 435px;
+  background-image: url("./images/background/HomePage_Content_Background.png"); }
+
+.info-box__container {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 435px;
-  background-image: url("./images/background/HomePage_Content_Background.png");
-  padding: 0 150px; }
+  max-width: 960px;
+  margin: 0 auto; }
 
-.content__text-wrapper_marginTop50 {
+.info-box__text-wrapper_marginTop50 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 775px;
-  height: 100%;
   margin-top: 50px; }
-  .content__text-wrapper_marginTop50 hr {
+  .info-box__text-wrapper_marginTop50 hr {
     width: 150px;
     border: none;
     border-top: 1px solid #a5a8a9;
     color: #a5a8a9; }
 
-.content__text-heading {
+.info-box__text-heading {
   font-family: Lato;
   font-size: 44px;
-  font-weight: 300; }
+  font-weight: 300;
+  margin-bottom: 20px; }
 
-.content__text-desc {
+.info-box__text-desc {
+  font-family: "Open Sans";
+  font-size: 14px;
   color: #606060;
   text-align: center;
-  line-height: 1.5em; }
+  line-height: 1.6em;
+  padding: 0 90px;
+  margin-top: 25px; }
 
 .info-box__icons-wrapper {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: center;
-  margin: 85px 0 65px; }
+  margin: 90px 0 60px; }
 
 .info-box__icon-href {
   display: flex;
@@ -163,16 +170,19 @@
   text-decoration: none;
   transform: scale(1.2); }
 
-.content__clients {
+.clients {
+  height: 465px;
+  background-color: white; }
+
+.clients__container {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 465px;
-  background-color: white;
-  padding: 0 150px; }
+  max-width: 960px;
+  margin: 0 auto; }
 
-.content__text-wrapper_marginTop70 {
+.clients__text-wrapper_marginTop70 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -180,11 +190,26 @@
   width: 775px;
   height: 100%;
   margin-top: 70px; }
-  .content__text-wrapper_marginTop70 hr {
+  .clients__text-wrapper_marginTop70 hr {
     width: 150px;
     border: none;
     border-top: 1px solid #a5a8a9;
     color: #a5a8a9; }
+
+.clients__text-heading {
+  font-family: Lato;
+  font-size: 44px;
+  font-weight: 300;
+  margin-bottom: 25px; }
+
+.clients__text-desc {
+  font-family: "Open Sans";
+  font-size: 14px;
+  color: #606060;
+  text-align: center;
+  line-height: 1.6em;
+  margin-top: 20px;
+  padding: 0 30px; }
 
 .clients__logos-wrapper {
   display: flex;
@@ -192,7 +217,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin: 65px 0 95px; }
+  margin: 70px 0 95px; }
   .clients__logos-wrapper .clients__arrow {
     background: none;
     border: none;

@@ -1,49 +1,47 @@
 .homepage-nav_light {
-    box-sizing: border-box;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     height: 110px;
-    padding: 0 150px;
-    background: white;
+    background-color: white;
 }
 
 .homepage-nav_dark {
-    box-sizing: border-box;
     width: 100%;
+    background-color: black;
+}
+
+.homepage-nav__container {
+    box-sizing: border-box;
+    max-width: 960px;
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 80px;
-    padding: 0 150px;
-    background: black;
+    margin: 0 auto;
 }
 
-.wds-logo_light-scheme {
+.homepage-nav__wds-logo_lightScheme {
     font-size: 40px;
     font-weight: 900;
     margin: 0 70px;
     color: black;
 }
 
-.wds-logo_dark-scheme {
+.homepage-nav__wds-logo_darkScheme {
     font-size: 40px;
     font-weight: 900;
     margin: 0 70px;
     color: white;
 }
 
-.homepage-nav-wrapper {
+.homepage-nav__links {
     display: flex;
     flex-direction: row;
     width: 365px;
     justify-content: space-between;
 }
 
-.homepage-nav-href {
+.homepage-nav__href {
     font-family: 'Open Sans';
     font-size: 14px;
     text-decoration: none;

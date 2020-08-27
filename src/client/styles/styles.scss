@@ -6,9 +6,11 @@
 @import 'components/services/servicesPage';
 @import 'components/portfolio/portfolioPage';
 @import 'components/our_team/ourTeamPage';
+@import 'components/blog/ourBlogPage';
 
 html,
 body {
+    width: 1260px;
     height: 100%;
     margin: 0;
     padding: 0;

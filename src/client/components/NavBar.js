@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 export const NavBar = (props) => {
     return (
-        <nav className={`homepage-nav_${props.colorScheme}`}>
+        <nav className={`homepage-nav_${props.colorScheme}`} id={'navbar'}>
             <div className={`homepage-nav__container`}>
                 <div className={'homepage-nav__links'}>
                     <NavLink

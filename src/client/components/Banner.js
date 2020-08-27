@@ -47,7 +47,7 @@ export const Banner = () => {
                         </svg>
                     </p>
                 </div>
-                <a href={'#'} className={'banner__href'}>
+                <a href={'#navbar'} className={'banner__href'}>
                     CHECK OUT OUR WORK
                 </a>
             </div>
